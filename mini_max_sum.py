@@ -12,6 +12,7 @@ The minimum sum is  and the maximum sum is . The function prints
 
 def miniMaxSum(arr):
     try:
+        #problem solved
         min_num = reduce(lambda x,y:x+y,arr)-max(arr)
         max_num = reduce(lambda x,y:x+y,arr)-min(arr)
         return print(min_num,max_num)
